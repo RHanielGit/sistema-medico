@@ -1,5 +1,7 @@
 # Sistema de Gerenciamento Médico
 
+### (WIP) Projeto em andamento... 🏗️
+
 ### Sobre o projeto 💡
 Este sistema surgiu como um trabalho realizado durante o curso de _**Sistemas de Informação**_, na matéria de _**Algoritmos e Estrutura de Dados**_, onde o professor sugeriu que um sistema parecido com esse fosse criado. 
 
