@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\renat\\source\\repos\\SistemaMédico2.0\\SistemaMédico2.0.csproj",
+      "projectUniqueName": "C:\\Users\\renat\\Documents\\GitHub\\sistema-medico\\SistemaMédico2.0\\SistemaMédico2.0.csproj",
       "projectName": "SistemaMédico2.0",
-      "projectPath": "C:\\Users\\renat\\source\\repos\\SistemaMédico2.0\\SistemaMédico2.0.csproj",
+      "projectPath": "C:\\Users\\renat\\Documents\\GitHub\\sistema-medico\\SistemaMédico2.0\\SistemaMédico2.0.csproj",
       "packagesPath": "C:\\Users\\renat\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\renat\\source\\repos\\SistemaMédico2.0\\obj\\",
+      "outputPath": "C:\\Users\\renat\\Documents\\GitHub\\sistema-medico\\SistemaMédico2.0\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\renat\\AppData\\Roaming\\NuGet\\NuGet.Config",
