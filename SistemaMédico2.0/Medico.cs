@@ -13,6 +13,8 @@ namespace SistemaMédico2._0
         private string endereco;
         private string telefone;
         private string email;
+        private int quantConsultas = 0;
+        private string[] consultasAgendadas;
 
         public int ID => id;
 
@@ -28,16 +30,23 @@ namespace SistemaMédico2._0
             telefone = Console.ReadLine();
             Console.Write("Digite o e-mail do médico: ");
             email = Console.ReadLine();
+
+            Console.WriteLine($"{nome} cadastrado! ID {id}");
         }
 
         public void ImprimirLista()
         {
-            Console.WriteLine($"\nID: {id}\nNome: {nome}");
+            Console.WriteLine($"ID: {id}\nNome: {nome}\n");
         }
 
         public void Imprimir()
         {
-            Console.WriteLine($"\nID: {id}\nNome: {nome}\nEndereço: {endereco}\nTelefone: {telefone}\nE-mail: {email}");
+            Console.WriteLine($"ID: {id}\nNome: {nome}\nEndereço: {endereco}\nTelefone: {telefone}\nE-mail: {email}\nConsultas marcadas: {quantConsultas}\n");
+        }
+
+        public void AgendarConsulta()
+        {
+            quantConsultas++;
         }
     }
 }
