@@ -8,7 +8,7 @@ class Program
     static int Menu()
     {
         Console.WriteLine("\n=-=-= Selecione sua opção =-=-=");
-        Console.WriteLine("1 - Agendar Consulta\n2 - Cadastrar Paciente\n3 - Ver Pacientes Cadastrados\n4 - Informações de Paciente\n5 - Cadastrar Médico\n6 - Ver Médicos Cadastrados\n7 - Informações do Médico\n8 - Ver Consultas Agendadas\n9 - Ver Consultas de um Médico\n0 - Sair");
+        Console.WriteLine("1 - Agendar Consulta\n2 - Cadastrar Paciente\n3 - Ver Pacientes Cadastrados\n4 - Informações de Paciente\n5 - Cadastrar Médico\n6 - Ver Médicos Cadastrados\n7 - Informações do Médico\n8 - Ver Consultas Agendadas\n0 - Sair");
         Console.WriteLine("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=\n");
         Console.Write("Opção: ");
         int Resp = int.Parse(Console.ReadLine());
@@ -75,7 +75,6 @@ class Program
                                 else
                                 {
                                     Console.WriteLine($"O ID {idMedico} informado não existe.");
-                                    break;
                                 }
                             }
                         } while (idFalso == true);
@@ -135,7 +134,6 @@ class Program
                         else
                         {
                             Console.WriteLine($"O ID {ID} informado não existe.");
-                            break;
                         }
                     }
                     break;
@@ -171,7 +169,6 @@ class Program
                         else
                         {
                             Console.WriteLine($"O ID {ID} informado não existe.");
-                            break;
                         }
                     }
                     break;
@@ -187,17 +184,6 @@ class Program
                         {
                             Console.WriteLine($"Consultas marcadas: {ContConsultas}");
                             consultas[i].ConsultasAgendadas();
-                        }
-                    }
-                    break;
-                case 9:
-                    Console.WriteLine("Digite o ID do Médico: ");
-                    ID = int.Parse(Console.ReadLine());
-                    for(int i = 0; i < consultas.Length; i++)
-                    {
-                        if (consultas[i].IDMedico == ID)
-                        {
-                            consultas[i].ImprimirConsultasMedico();
                         }
                     }
                     break;
